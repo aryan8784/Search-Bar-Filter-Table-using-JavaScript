@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Bar & Filter Table using JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center; text-transform: uppercase; color: teal">
+      User Table
+    </h1>
+
+    <div>
+      <input type="text" id="myInput" placeholder="names...." onkeyup="searchFun()">
+    </div>
+
+    <table id="myTable">
+      <tr class="header">
+        <th style="width: 40%">Name</th>
+        <th style="width: 30%">Degree</th>
+        <th style="width: 30%">Profession</th>
+      </tr>
+      <tr>
+        <td>Aryan</td>
+        <td>PHD</td>
+        <td>Full Stack developer</td>
+      </tr>
+      <tr>
+        <td>Mobeen</td>
+        <td>Master</td>
+        <td>Front-End developer</td>
+      </tr>
+      <tr>
+        <td>JahanZeb</td>
+        <td>Intermediate</td>
+        <td>CEO</td>
+      </tr>
+      <tr>
+        <td>Zain</td>
+        <td>Matric</td>
+        <td>Graphic Designer</td>
+      </tr>
+      <tr>
+        <td>Ayesha</td>
+        <td>Under-Garduate</td>
+        <td>Mern Stack developer</td>
+      </tr>
+      <tr>
+        <td>Komal</td>
+        <td>MCS</td>
+        <td>Engineer</td>
+      </tr>
+      <tr>
+        <td>Saif</td>
+        <td>MCS</td>
+        <td>Full Stack developer</td>
+      </tr>
+    </table>
+
+    <script src="app.js"></script>
+  </body>
+</html>
